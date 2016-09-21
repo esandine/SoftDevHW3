@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "hello"
+    return "hello, try adding /goodbye/ or /help/ to the url"
 
 @app.route("/goodbye/")
 def goodbye():
